@@ -91,7 +91,7 @@ export default function App() {
         <div className="brand-section">
           <div className="brand-icon">⚡</div>
           <div className="brand-text">
-            <h1>DevOps Control Center</h1>
+            <h1>DevOps Control   Center</h1>
             <p>Fullstack CI/CD Monitoring • React + Node.js + Docker</p>
           </div>
         </div>
