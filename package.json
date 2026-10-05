@@ -1,0 +1,15 @@
+{
+  "name": "cicd-web-root",
+  "version": "1.0.0",
+  "description": "Fullstack Application (React + Node.js) for DevOps Practice",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "test": "cd server && npm test",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+  "keywords": ["devops", "react", "nodejs", "express"],
+  "author": "DevOps Engineer",
+  "license": "MIT"
+}

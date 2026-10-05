@@ -1,0 +1,19 @@
+{
+  "name": "devops-backend-api",
+  "version": "1.0.0",
+  "description": "Node.js Express REST API for DevOps Monitoring & CI/CD Pipeline",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": ["devops", "nodejs", "express", "ci-cd", "docker", "jenkins"],
+  "author": "DevOps Engineer",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
